@@ -1,36 +1,48 @@
+img {
+  width: 100%;
+}
 .blue {
-    color: blue;
+  color: blue;
 }
 th {
-    background-color: rgb(238, 237, 237);
+  background-color: rgb(238, 237, 237);
 }
 /*стилі для таблиці*/
 .table-history {
-border-collapse: collapse;
-width: 75%;
-border: 1px solid black
+  border-collapse: collapse;
+  width: 75%;
+  border: 1px solid black;
 }
-main,table {
+main,
+table {
 }
-main,article {
-    width: 45%;
-    margin: auto;
-    padding: 30px;
-    background-color: rgb(222, 221, 221);
+main > article {
+  width: 45%;
+  margin: auto;
+  padding: 30px;
+  background-color: rgb(222, 221, 221);
 }
 .table-history th {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+.table-history th,
+.table-history td {
+  border: 1px solid rgb(64, 64, 64);
+  padding: 6px;
 }
 body {
-    font-family:sans-serif;
-    font-size: 14px;
+  font-family: sans-serif;
+  font-size: 14px;
 }
 .float-right {
-    float: right;
+  float: right;
 }
 .w-20 {
-    width: 20%;
+  width: 20%;
 }
 .hr {
-    width: 100%;
+  width: 100%;
+}
+.w-40 {
+    width: 40%;
 }
