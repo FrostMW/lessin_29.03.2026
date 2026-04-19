@@ -50,3 +50,22 @@ body {
 .w-40 {
     width: 40%;
 }
+.info {
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+  padding-left: 65px;
+  border-color: grey;
+  border-width: 1px;
+  border-left-width: 4px;
+  border-style: solid;
+  background-color: rgb(172, 168, 168);
+}
+.nav-menu {
+  margin: 0%;
+  width: 200px;
+  border: 1px solid grey;
+  padding: 8px 15px;
+  background-color: white;
+  font-size: 1em;
+}
