@@ -26,6 +26,21 @@ main > article {
   padding: 30px;
   background-color: rgb(222, 221, 221);
 }
+.info-icon {
+  display: inline-block;
+  
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  margin-right: 20px;
+  border-radius: 50%;
+
+  color:white;
+  background-color: rgb(0, 85, 255);
+  text-align: center;
+  font-size: 2.2em;
+  font-family: sans-serif;
+}
 .table-history th {
   background-color: rgb(255, 255, 255);
 }
@@ -68,4 +83,9 @@ body {
   padding: 8px 15px;
   background-color: white;
   font-size: 1em;
+}
+code {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid rgb(64, 64, 64);
 }
