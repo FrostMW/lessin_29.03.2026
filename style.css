@@ -89,3 +89,35 @@ code {
   background-color: white;
   border: 1px solid rgb(64, 64, 64);
 }
+.main-header {
+  background-color: rgb(0, 98, 255);
+  height: 500px;
+}
+
+.maim-wrrapen {}
+
+.main-menu {
+  list-style: none;
+}
+.main-menu-item {
+  display: inline-block;
+  margin: 0 0,1em;
+}
+.main-menu-item>a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.submenu {
+  list-style: none;
+  padding: 7px;
+  background-color: white;
+}
+.submenu-item {}
+.submenu-link {
+  display: block;
+  padding: 5px 9px;
+  background-color: aqua;
+  text-transform: capitalize;
+}
