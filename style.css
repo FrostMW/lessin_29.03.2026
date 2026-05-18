@@ -96,6 +96,17 @@ code {
 
 .maim-wrrapen {}
 
+.main-header {
+  height: 300px;
+padding-top: 100px;
+background-color: rgb(104, 212, 255);
+url(./../images/Light background grass.png),
+background-image: url(./../images/Light background deepslate transition.png),
+linear-gradient(Odeg, rgba(2,0,36,1) 0%,
+199,255,1) 100%);
+background-repeat: repeat-x, repeat-x, no-repeat; background-position: bottom 1ft, 0 120px, 0 0;  
+}
+
 .main-menu {
   list-style: none;
 }
@@ -108,9 +119,16 @@ code {
   text-transform: uppercase;
   font-weight: bolder;
 }
+.main-menu-item>a:hover {
+  text-decoration: underline;
+}
 
 .submenu {
   list-style: none;
+  width: 210%;
+  position: absolute;
+  list-style: none;
+  min-width: 170px ;
   padding: 7px;
   background-color: white;
 }
