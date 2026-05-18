@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -28,14 +28,14 @@ main > article {
 }
 .info-icon {
   display: inline-block;
-  
+
   width: 40px;
   height: 40px;
   padding: 3px;
   margin-right: 20px;
   border-radius: 50%;
 
-  color:white;
+  color: white;
   background-color: rgb(0, 85, 255);
   text-align: center;
   font-size: 2.2em;
@@ -52,6 +52,8 @@ main > article {
 body {
   font-family: sans-serif;
   font-size: 14px;
+  margin: 0;
+  background-image:url(./assets/images/Site-background-light.webp);
 }
 .float-right {
   float: right;
@@ -63,7 +65,7 @@ body {
   width: 100%;
 }
 .w-40 {
-    width: 40%;
+  width: 40%;
 }
 .info {
   width: 90%;
@@ -94,17 +96,27 @@ code {
   height: 500px;
 }
 
-.maim-wrrapen {}
+.main-wrapper {
+  min-width: 720px;
+  width: 45%;
+  margin: auto;
+  
+}
 
 .main-header {
   height: 300px;
-padding-top: 100px;
-background-color: rgb(104, 212, 255);
-url(./../images/Light background grass.png),
-background-image: url(./../images/Light background deepslate transition.png),
-linear-gradient(Odeg, rgba(2,0,36,1) 0%,
-199,255,1) 100%);
-background-repeat: repeat-x, repeat-x, no-repeat; background-position: bottom 1ft, 0 120px, 0 0;  
+  padding-top: 90px;
+  background-color: rgb(104, 212, 255);
+  background-image: url(./assets/images/Light_background_deepslate_transition.png),
+    url(./assets/images/Light_background_grass.png),
+    linear-gradient(
+      0deg,
+      rgba(47, 9, 4, 1) 28%,
+      rgba(192, 244, 255, 1) 50%,
+      rgba(129, 199, 255, 1) 100%
+    );
+  background-repeat: repeat-x, repeat-x, no-repeat;
+  background-position: bottom left, 0 120px, 0 0;
 }
 
 .main-menu {
@@ -112,14 +124,17 @@ background-repeat: repeat-x, repeat-x, no-repeat; background-position: bottom 1f
 }
 .main-menu-item {
   display: inline-block;
-  margin: 0 0,1em;
+  margin: 0 1.2em;
+    position: relative;
+
 }
-.main-menu-item>a {
+.main-menu-item > a {
   color: black;
   text-transform: uppercase;
   font-weight: bolder;
+  text-decoration: none;
 }
-.main-menu-item>a:hover {
+.main-menu-item > a:hover {
   text-decoration: underline;
 }
 
@@ -128,14 +143,24 @@ background-repeat: repeat-x, repeat-x, no-repeat; background-position: bottom 1f
   width: 210%;
   position: absolute;
   list-style: none;
-  min-width: 170px ;
+  min-width: 170px;
   padding: 7px;
   background-color: white;
+  display: none;
 }
-.submenu-item {}
+.submenu-item {
+  position: relative;
+}
 .submenu-link {
   display: block;
   padding: 5px 9px;
-  background-color: aqua;
+  /* background-color: rgb(0, 255, 255); */
   text-transform: capitalize;
+  text-decoration: none;
+}
+.submenu-link:hover{
+  background-color: rgb(177, 255, 255);
+}
+.main-menu-item:hover>.submenu {
+display: block;
 }
